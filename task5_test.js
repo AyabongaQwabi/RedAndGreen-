@@ -18,3 +18,16 @@ if(bg_color != "rgb(0, 128, 0)")
 	alert("Failure !");
 }
 else{ alert("Success !"); }
+
+
+
+
+//change bg_color
+setBackgroundColor('mySquare', 'red');
+bg_color = GET('background-color',sq);
+//check that it changed...
+if(bg_color != "rgb(255, 0, 0)")
+{
+	alert("Failure !");
+}
+else{ alert("Success !"); }
