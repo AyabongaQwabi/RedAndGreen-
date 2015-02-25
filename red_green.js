@@ -7,7 +7,7 @@ function RedOrGreen(div){
 		element.style.backgroundColor ='red';
 	}
 
-	alert("RG some more")
+	
 	this.makeGreen = function(){
 		element.style.backgroundColor ='green';
 	}
